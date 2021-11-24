@@ -11,6 +11,8 @@
 		F104A843274D875600E9B670 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104A842274D875600E9B670 /* TabButton.swift */; };
 		F104A845274D90E500E9B670 /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104A844274D90E500E9B670 /* item.swift */; };
 		F104A847274DA5AD00E9B670 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104A846274DA5AD00E9B670 /* CardView.swift */; };
+		F104A849274DC36700E9B670 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104A848274DC36700E9B670 /* Detail.swift */; };
+		F104A84B274DCF9500E9B670 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F104A84A274DCF9500E9B670 /* CustomShape.swift */; };
 		F1578A23274D3C4E00E39937 /* GlassStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1578A22274D3C4E00E39937 /* GlassStoreApp.swift */; };
 		F1578A25274D3C4E00E39937 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1578A24274D3C4E00E39937 /* ContentView.swift */; };
 		F1578A27274D3C5000E39937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1578A26274D3C5000E39937 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		F104A842274D875600E9B670 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		F104A844274D90E500E9B670 /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
 		F104A846274DA5AD00E9B670 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F104A848274DC36700E9B670 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		F104A84A274DCF9500E9B670 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		F1578A1F274D3C4E00E39937 /* GlassStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1578A22274D3C4E00E39937 /* GlassStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStoreApp.swift; sourceTree = "<group>"; };
 		F1578A24274D3C4E00E39937 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 				F104A840274D800000E9B670 /* Home.swift */,
 				F104A842274D875600E9B670 /* TabButton.swift */,
 				F104A846274DA5AD00E9B670 /* CardView.swift */,
+				F104A848274DC36700E9B670 /* Detail.swift */,
+				F104A84A274DCF9500E9B670 /* CustomShape.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F104A84B274DCF9500E9B670 /* CustomShape.swift in Sources */,
 				F1578A25274D3C4E00E39937 /* ContentView.swift in Sources */,
+				F104A849274DC36700E9B670 /* Detail.swift in Sources */,
 				F104A843274D875600E9B670 /* TabButton.swift in Sources */,
 				F104A845274D90E500E9B670 /* item.swift in Sources */,
 				F104A841274D800000E9B670 /* Home.swift in Sources */,
